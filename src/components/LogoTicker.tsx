@@ -17,7 +17,7 @@ const images = [
 
 export const LogoTicker = () => {
   return (
-    <div className="relative bg-black text-white py-[72px] lg:pt-0 lg:pb-24 lg:-mt-12 z-10">
+    <div className="relative bg-black text-white py-[72px] lg:pt-0 lg:pb-24 lg:-mt-20 z-10">
       <div className="container">
         <h2 className="text-xl text-white/70 text-center">
           Trusted by the world&apos;s most innovative teams
