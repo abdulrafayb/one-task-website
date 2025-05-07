@@ -9,11 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       container: {
-        padding: '1rem', 
+        padding: "1rem",
         center: true,
-      }
+
+        screens: {
+          sm: "356px",
+          md: "710px",
+          lg: "1280px",
+        },
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
